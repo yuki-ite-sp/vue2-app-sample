@@ -2,16 +2,20 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <LibSample />
   </div>
 </template>
 
 <script>
+import '@yuki-ite-sp/vue2-lib-sample/dist/LibSample.css'
 import HelloWorld from './components/HelloWorld.vue'
+import LibSample from '@yuki-ite-sp/vue2-lib-sample'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    LibSample
   }
 }
 </script>
