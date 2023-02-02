@@ -2,20 +2,19 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <LibSample />
+    <TestKitamuraShopSearch />
   </div>
 </template>
 
 <script>
-import '@yuki-ite-sp/vue2-lib-sample/dist/LibSample.css'
 import HelloWorld from './components/HelloWorld.vue'
-import LibSample from '@yuki-ite-sp/vue2-lib-sample'
+import TestKitamuraShopSearch from '@shimauma-print-inc/test-kitamura-shop-search'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    LibSample
+    TestKitamuraShopSearch
   }
 }
 </script>
