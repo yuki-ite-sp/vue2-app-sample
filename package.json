@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@shimauma-print-inc/kitamura-shop-search": "0.0.1-alpha.7",
+    "@shimauma-print-inc/kitamura-shop-search": "0.0.2-alpha.2",
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
   },
